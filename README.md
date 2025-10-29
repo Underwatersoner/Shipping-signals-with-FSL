@@ -27,16 +27,6 @@ Supporting_Information/Preprocessed_Data/Spectrogram/
 
 or under the path defined as data_root in train_siamese.py (default /root/data/).
 
-Example after extraction:
-
-Preprocessed_Data/
-├─ Raw_sound_sample/
-└─ Spectrogram/            # NPY files from the separate archives
-   ├─ class_00/ *.npy
-   ├─ class_01/ *.npy
-   └─ ...
-
-
 If using a different location, update data_root in train_siamese.py.
 
 3) Data Summary
