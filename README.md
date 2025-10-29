@@ -7,18 +7,6 @@ This package provides supporting information for the PLOS ONE manuscript.
 It includes two representative raw acoustic samples, code, and a data description document.
 Due to file size limitations, the preprocessed spectrogram (.npy) data are provided separately as multiple compressed files uploaded individually to the submission system.
 
-1) Folder Structure (this ZIP)
-Supporting_Information/
-├─ Preprocessed_Data/
-│  └─ Raw_sound_sample/        # Two representative raw acoustic samples (WAV)
-│      ├─ 20160716_143000
-│      └─ 20160716_163000
-├─ Data_Details.pdf            # Data description (collection, preprocessing, labels)
-├─ fewshot_utils.py            # Utility functions (distance, loss, sampler, model)
-├─ train_siamese.py            # Training / evaluation script
-└─ README.txt (this file)
-
-
 Note: Only Raw_sound_sample is included inside this ZIP.
 The preprocessed spectrogram (.npy) files are uploaded as separate compressed archives.
 
